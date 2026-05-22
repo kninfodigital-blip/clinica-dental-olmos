@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clinica Dental Olmos · Desde 1965 · Valencia, Mislata y Puzol</title>
+  <meta name="description" content="Clinica dental familiar en Valencia desde 1965. Dos generaciones de odontologos. Ortodoncia, implantes, cirugia oral, estetica dental. Primera visita gratuita." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- OG -->
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Clinica Dental Olmos · Desde 1965 · Valencia" />
+  <meta property="og:description" content="Dos generaciones cuidando de las sonrisas de Valencia. Primera visita gratuita." />
+  <meta property="og:site_name" content="Clinica Dental Olmos" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/logo/logo-icon.jpg" />
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     PRELOADER
+     ═══════════════════════════════════════════════════════════════════════ -->
+<div class="preloader" id="preloader">
+  <svg class="preloader-logo" viewBox="0 0 40 40" fill="none">
+    <path d="M20 36 C 6 28, 4 18, 8 12 C 12 7, 18 8, 20 13 C 22 8, 28 7, 32 12 C 36 18, 34 28, 20 36 Z" stroke="rgba(255,255,255,0.6)" stroke-width="1.2" fill="none"/>
+    <path d="M12 20 Q 20 28, 28 20" stroke="#4A90D9" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+  </svg>
+  <div class="preloader-bar"><div class="preloader-bar-fill"></div></div>
+</div>
+
+<!-- Cursor glow -->
+<div class="cursor-glow" id="cursor-glow"></div>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     NAVIGATION
+     ═══════════════════════════════════════════════════════════════════════ -->
+<nav class="nav" id="nav">
+  <div class="container nav-inner">
+    <a href="#top" class="nav-brand">
+      <img src="assets/logo/logo-olmos.png" alt="Clinica Dental Olmos" />
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#clinica" class="nav-link">Clinica</a></li>
+      <li><a href="#tratamientos" class="nav-link">Tratamientos</a></li>
+      <li><a href="#casos" class="nav-link">Casos</a></li>
+      <li><a href="#equipo" class="nav-link">Equipo</a></li>
+      <li><a href="#sedes" class="nav-link">Sedes</a></li>
+      <li><a href="#cita" class="nav-link">Contacto</a></li>
+    </ul>
+
+    <div class="nav-actions">
+      <a href="tel:+34963410644" class="nav-phone">96 341 06 44</a>
+      <a href="#cita" class="btn btn-primary nav-cta">
+        Pedir cita <span class="arrow"></span>
+      </a>
+    </div>
+
+    <div class="nav-burger" id="nav-burger">
+      <span></span><span></span><span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#clinica">Clinica</a>
+  <a href="#tratamientos">Tratamientos</a>
+  <a href="#casos">Casos</a>
+  <a href="#equipo">Equipo</a>
+  <a href="#sedes">Sedes</a>
+  <a href="#cita">Pedir cita</a>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     HERO
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="hero" id="top">
+  <!-- Animated orbs -->
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-orb hero-orb-3"></div>
+
+  <!-- Particles canvas -->
+  <canvas class="hero-canvas" id="hero-particles"></canvas>
+
+  <div class="container">
+    <div class="hero-grid">
+      <!-- Left: headline -->
+      <div class="hero-headline">
+        <span class="eyebrow reveal" style="display:inline-flex;align-items:center;gap:10px;margin-bottom:28px;">
+          <span style="width:7px;height:7px;background:var(--gold);border-radius:50%;"></span>
+          Clinica familiar · Dos generaciones
+        </span>
+
+        <h1 class="serif reveal delay-1">
+          <span style="display:block;">Tu sonrisa,</span>
+          <span class="line-italic" style="display:block;">nuestra <span class="hero-highlight">herencia.</span></span>
+        </h1>
+
+        <p class="hero-sub reveal delay-2">
+          Desde 1965, la familia Olmos cuida de las sonrisas de Valencia. Tres clinicas, cuatro odontologos, un mismo apellido en la puerta.
+        </p>
+
+        <div class="hero-buttons reveal delay-3">
+          <a href="#cita" class="btn btn-primary">
+            Pedir cita gratuita <span class="arrow"></span>
+          </a>
+          <a href="#equipo" class="btn btn-glass">Conoce al equipo</a>
+        </div>
+
+        <div class="hero-trust reveal delay-4">
+          <div class="trust-item">
+            <span class="trust-value serif">4,9</span>
+            <span class="trust-label">Google</span>
+            <span class="trust-sub">320+ resenas</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-value serif">1a</span>
+            <span class="trust-label">Visita gratis</span>
+            <span class="trust-sub">Sin compromiso</span>
+          </div>
+          <div class="trust-item">
+            <span class="trust-value serif">24m</span>
+            <span class="trust-label">Financiacion</span>
+            <span class="trust-sub">Sin intereses</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: visual -->
+      <div class="hero-visual reveal-right delay-2">
+        <div class="hero-photo">
+          <img src="assets/img/Image1.jpg" alt="Equipo Clinica Dental Olmos" />
+          <div class="hero-photo-overlay"></div>
+          <div class="hero-photo-tag">
+            <span class="micro">El equipo</span>
+            <div class="serif" style="font-size:17px;font-weight:300;font-style:italic;margin-top:4px;">Clinica Olmos</div>
+          </div>
+        </div>
+
+        <div class="hero-float-card glass-dark">
+          <div class="card-label">Proxima cita</div>
+          <div class="card-value serif">Hoy</div>
+          <div class="card-sub">3 huecos disponibles</div>
+          <a href="#cita" class="card-link">Reservar <span>&#8594;</span></a>
+        </div>
+
+        <div class="hero-badge serif">
+          <span class="badge-since">desde</span>
+          <span class="badge-year">1965</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll cue -->
+    <div class="hero-scroll reveal delay-5">
+      <div class="scroll-indicator">
+        <span class="micro">Desliza</span>
+        <div class="scroll-line"></div>
+      </div>
+      <span class="micro">(01) Manifiesto &#8594;</span>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     MARQUEE
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="marquee">
+  <div class="marquee-track">
+    <span class="marquee-item serif">Ortodoncia <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Invisalign <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Implantologia <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Cirugia oral <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Odontopediatria <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Endodoncia <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Estetica dental <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Carillas <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Blanqueamiento <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Periodoncia <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Protesis <span class="marquee-dot"></span></span>
+    <!-- Duplicado para loop continuo -->
+    <span class="marquee-item serif">Ortodoncia <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Invisalign <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Implantologia <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Cirugia oral <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Odontopediatria <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Endodoncia <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Estetica dental <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Carillas <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Blanqueamiento <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Periodoncia <span class="marquee-dot"></span></span>
+    <span class="marquee-item serif">Protesis <span class="marquee-dot"></span></span>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     NUMBERS
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="numbers" id="clinica">
+  <div class="container">
+    <div class="numbers-header">
+      <span class="eyebrow reveal">(02) &mdash; Sesenta anos en cifras</span>
+      <p class="serif reveal delay-1">
+        Lo que <em>se ve</em> en una primera visita es la consulta. Lo que <em>no se ve</em> es lo que sostiene la confianza.
+      </p>
+    </div>
+
+    <div class="numbers-grid">
+      <div class="number-card reveal">
+        <div class="number-card-top">
+          <span class="micro">01</span>
+          <span class="micro">Ano</span>
+        </div>
+        <div>
+          <div class="number-value" data-count="1965" data-year="true">0</div>
+          <p class="number-label">Ano en que el Dr. Vicente Olmos abrio la primera consulta en Valencia.</p>
+        </div>
+      </div>
+
+      <div class="number-card reveal delay-1">
+        <div class="number-card-top">
+          <span class="micro">02</span>
+          <span class="micro">Generaciones</span>
+        </div>
+        <div>
+          <div class="number-value" data-count="2">0</div>
+          <p class="number-label">Padre y cuatro hijos. Mismo apellido en la puerta.</p>
+        </div>
+      </div>
+
+      <div class="number-card reveal delay-2">
+        <div class="number-card-top">
+          <span class="micro">03</span>
+          <span class="micro">Pacientes</span>
+        </div>
+        <div>
+          <div class="number-value" data-count="10000" data-prefix="+">0</div>
+          <p class="number-label">Familias que confian en nosotros, muchas desde los anos 70.</p>
+        </div>
+      </div>
+
+      <div class="number-card reveal delay-3">
+        <div class="number-card-top">
+          <span class="micro">04</span>
+          <span class="micro">Clinicas</span>
+        </div>
+        <div>
+          <div class="number-value" data-count="3">0</div>
+          <p class="number-label">Valencia capital, Mislata y Puzol. Mismo equipo, mismo criterio.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     MANIFESTO
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="manifesto">
+  <div class="container">
+    <div class="manifesto-grid">
+      <div class="reveal-left">
+        <span class="eyebrow">(03) &mdash; Manifiesto</span>
+        <div class="manifesto-img" style="margin-top:32px;">
+          <img src="assets/img/image 2.jpg" alt="Consulta Clinica Olmos" />
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding-top:12px;">
+          <span class="micro">Consulta &middot; 2024</span>
+          <span class="micro">&copy; Olmos</span>
+        </div>
+      </div>
+
+      <div class="manifesto-text reveal-right">
+        <h2 class="serif">
+          En 1965, el Dr. Vicente Olmos abrio una pequena consulta en Valencia. Casi sesenta anos despues, sus hijos siguen aqui, atendiendo a los hijos &mdash;y a los nietos&mdash; de aquellos primeros pacientes.
+        </h2>
+        <p>
+          No somos una franquicia. No tenemos un <em>call center</em>. Cada paciente entra en una clinica que lleva nuestro apellido en la puerta, y eso significa algo: nuestra reputacion esta en cada tratamiento.
+        </p>
+        <div class="manifesto-signature">
+          <div class="sig serif">&mdash; La familia Olmos</div>
+          <a href="#equipo" class="ulink">Conoce al equipo</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     DIFFERENTIATORS
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="diff">
+  <div class="container">
+    <div class="diff-header">
+      <span class="eyebrow reveal">(04) &mdash; Lo que nos diferencia</span>
+      <span class="micro reveal delay-1">Tres compromisos</span>
+    </div>
+
+    <div class="diff-grid">
+      <article class="diff-card reveal">
+        <div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;">
+            <span class="diff-num serif">01</span>
+            <span class="diff-tag">&#9679; Formamos a la profesion</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="diff-title serif">Especialistas en casos complejos</h3>
+          <p class="diff-body">Lo que otras clinicas derivan, nosotros lo resolvemos. Mas de cincuenta anos formando a otros dentistas nos avalan.</p>
+          <div class="diff-arrow">Saber mas <span>&#8594;</span></div>
+        </div>
+      </article>
+
+      <article class="diff-card reveal delay-1">
+        <div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;">
+            <span class="diff-num serif">02</span>
+            <span class="diff-tag">&#9679; Sin compromiso</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="diff-title serif">Primera visita gratuita</h3>
+          <p class="diff-body">Diagnostico, plan de tratamiento y presupuesto sin compromiso ni letra pequena. Ven, te explicamos, decides tu.</p>
+          <div class="diff-arrow">Saber mas <span>&#8594;</span></div>
+        </div>
+      </article>
+
+      <article class="diff-card reveal delay-2">
+        <div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;">
+            <span class="diff-num serif">03</span>
+            <span class="diff-tag">&#9679; 24 meses &middot; 0%</span>
+          </div>
+        </div>
+        <div>
+          <h3 class="diff-title serif">Financiacion a tu medida</h3>
+          <p class="diff-body">Hasta 24 meses sin intereses, en cualquiera de las tres clinicas. La salud no deberia esperar a fin de mes.</p>
+          <div class="diff-arrow">Saber mas <span>&#8594;</span></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     TREATMENTS
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="treatments" id="tratamientos">
+  <div class="container">
+    <div class="treatments-header">
+      <div class="reveal">
+        <span class="eyebrow">(05) &mdash; Tratamientos</span>
+        <h2 class="serif" style="margin-top:24px;">
+          Doce especialidades, <em>un</em> mismo criterio clinico.
+        </h2>
+      </div>
+      <a href="#tratamientos" class="ulink reveal delay-1">Ver indice completo &#8594;</a>
+    </div>
+
+    <div class="bento">
+      <!-- Ortodoncia — large -->
+      <a href="#" class="bento-card tone-navy reveal-scale" style="grid-area:orto;">
+        <div class="bento-card-img">
+          <img src="assets/img/ortodoncia-braquets-clinica-dental-olmos.jpg" alt="Ortodoncia" loading="lazy" />
+          <div class="bento-card-img-overlay"></div>
+        </div>
+        <div class="bento-top">
+          <span class="micro" style="opacity:0.7;">/ ortodoncia</span>
+          <span class="arrow-pill">&#8599;</span>
+        </div>
+        <div class="bento-bottom">
+          <h3 class="serif" style="font-size:clamp(2rem,3vw,3rem);">Ortodoncia</h3>
+          <p class="bento-line serif">Alinear es solo el principio.</p>
+        </div>
+      </a>
+
+      <!-- Invisalign — medium -->
+      <a href="#" class="bento-card tone-glass reveal-scale delay-1" style="grid-area:invi;">
+        <div class="bento-top">
+          <span class="micro">/ invisalign</span>
+          <span class="arrow-pill">&#8599;</span>
+        </div>
+        <div class="bento-bottom">
+          <h3 class="serif" style="font-size:clamp(1.3rem,1.6vw,1.7rem);">Invisalign</h3>
+          <p class="bento-line serif">Tu sonrisa cambia. Tu vida no se entera.</p>
+        </div>
+      </a>
+
+      <!-- Cirugia — small -->
+      <a href="#" class="bento-card tone-navy reveal-scale delay-2" style="grid-area:ciru;">
+        <div class="bento-card-img">
+          <img src="assets/img/cirugia-oral-clinica-dental-1.jpg" alt="Cirugia oral" loading="lazy" />
+          <div class="bento-card-img-overlay"></div>
+        </div>
+        <div class="bento-top">
+          <span class="micro" style="opacity:0.7;">/ cirugia</span>
+          <span class="arrow-pill">&#8599;</span>
+        </div>
+        <div class="bento-bottom">
+          <h3 class="serif" style="font-size:clamp(1.1rem,1.3vw,1.35rem);">Cirugia oral</h3>
+          <p class="bento-line serif" style="font-size:0.9rem;">Manos expertas para lo que importa.</p>
+        </div>
+      </a>
+
+      <!-- Implantologia — medium -->
+      <a href="#" class="bento-card tone-primary reveal-scale delay-1" style="grid-area:impl;">
+        <div class="bento-card-img">
+          <img src="assets/img/implantes-clinica-olmos.jpg" alt="Implantologia" loading="lazy" />
+          <div class="bento-card-img-overlay"></div>
+        </div>
+        <div class="bento-top">
+          <span class="micro" style="opacity:0.7;">/ implantologia</span>
+          <span class="arrow-pill">&#8599;</span>
+        </div>
+        <div class="bento-bottom">
+          <h3 class="serif" style="font-size:clamp(1.3rem,1.6vw,1.7rem);">Implantologia</h3>
+          <p class="bento-line serif">Recupera lo que perdiste. Mejor incluso.</p>
+        </div>
+      </a>
+
+      <!-- Pediatria — medium -->
+      <a href="#" class="bento-card tone-deep reveal-scale delay-2" style="grid-area:pedi;">
+        <div class="bento-card-img-thumb">
+          <img src="assets/img/nina-odontopediatria-2.jpg" alt="Odontopediatria" loading="lazy" />
+        </div>
+        <div class="bento-top">
+          <span class="micro">/ pediatria</span>
+          <span class="arrow-pill">&#8599;</span>
+        </div>
+        <div class="bento-bottom">
+          <h3 class="serif" style="font-size:clamp(1.3rem,1.6vw,1.7rem);">Odontopediatria</h3>
+          <p class="bento-line serif">Cuidamos a los mas pequenos como si fueran nuestros.</p>
+        </div>
+      </a>
+
+      <!-- Estetica — large -->
+      <a href="#" class="bento-card tone-glass reveal-scale" style="grid-area:este;">
+        <div class="bento-card-img">
+          <img src="assets/img/odontologia-conservadora-clinica-dental-olmos.jpg" alt="Estetica dental" loading="lazy" />
+          <div class="bento-card-img-overlay" style="background:linear-gradient(180deg,rgba(232,241,250,0.3) 0%,rgba(10,22,40,0.5) 100%);"></div>
+        </div>
+        <div class="bento-top">
+          <span class="micro">/ estetica</span>
+          <span class="arrow-pill">&#8599;</span>
+        </div>
+        <div class="bento-bottom" style="color:#fff;">
+          <h3 class="serif" style="font-size:clamp(2rem,3vw,3rem);">Estetica dental</h3>
+          <p class="bento-line serif">Tu mejor sonrisa, sin exagerar.</p>
+        </div>
+      </a>
+
+      <!-- Endodoncia — small -->
+      <a href="#" class="bento-card tone-glass reveal-scale delay-1" style="grid-area:endo;">
+        <div class="bento-card-img-thumb">
+          <img src="assets/img/endodoncia-clinica-dental-olmos-2.jpg" alt="Endodoncia" loading="lazy" />
+        </div>
+        <div class="bento-top">
+          <span class="micro">/ endodoncia</span>
+          <span class="arrow-pill">&#8599;</span>
+        </div>
+        <div class="bento-bottom">
+          <h3 class="serif" style="font-size:clamp(1.1rem,1.3vw,1.35rem);">Endodoncia</h3>
+          <p class="bento-line serif" style="font-size:0.9rem;">Salvamos el diente. Siempre que sea posible.</p>
+        </div>
+      </a>
+
+      <!-- Carillas — small -->
+      <a href="#" class="bento-card tone-navy reveal-scale delay-2" style="grid-area:cari;">
+        <div class="bento-top">
+          <span class="micro" style="opacity:0.7;">/ carillas</span>
+          <span class="arrow-pill">&#8599;</span>
+        </div>
+        <div class="bento-bottom">
+          <h3 class="serif" style="font-size:clamp(1.1rem,1.3vw,1.35rem);">Carillas</h3>
+          <p class="bento-line serif" style="font-size:0.9rem;">Disenadas para ti, no para Instagram.</p>
+        </div>
+      </a>
+
+      <!-- Blanqueamiento — small -->
+      <a href="#" class="bento-card tone-glass reveal-scale delay-1" style="grid-area:blan;">
+        <div class="bento-top">
+          <span class="micro">/ blanqueamiento</span>
+          <span class="arrow-pill">&#8599;</span>
+        </div>
+        <div class="bento-bottom">
+          <h3 class="serif" style="font-size:clamp(1.1rem,1.3vw,1.35rem);">Blanqueamiento</h3>
+          <p class="bento-line serif" style="font-size:0.9rem;">Resultados reales, sin dano al esmalte.</p>
+        </div>
+      </a>
+
+      <!-- Protesis — small (tall) -->
+      <a href="#" class="bento-card tone-deep reveal-scale delay-2" style="grid-area:prot;">
+        <div class="bento-card-img-thumb">
+          <img src="assets/img/protesis-removible-clinica-dental-olmos.jpg" alt="Protesis dental" loading="lazy" />
+        </div>
+        <div class="bento-top">
+          <span class="micro">/ protesis</span>
+          <span class="arrow-pill">&#8599;</span>
+        </div>
+        <div class="bento-bottom">
+          <h3 class="serif" style="font-size:clamp(1.1rem,1.3vw,1.35rem);">Protesis dental</h3>
+          <p class="bento-line serif" style="font-size:0.9rem;">Comodidad y estetica, sin renuncias.</p>
+        </div>
+      </a>
+
+      <!-- Conservadora — small -->
+      <a href="#" class="bento-card tone-glass reveal-scale" style="grid-area:cons;">
+        <div class="bento-card-img-thumb">
+          <img src="assets/img/cirugia-oral-clinica-dental-olmos2.jpg" alt="Odontologia conservadora" loading="lazy" />
+        </div>
+        <div class="bento-top">
+          <span class="micro">/ conservadora</span>
+          <span class="arrow-pill">&#8599;</span>
+        </div>
+        <div class="bento-bottom">
+          <h3 class="serif" style="font-size:clamp(1.1rem,1.3vw,1.35rem);">Odont. Conservadora</h3>
+          <p class="bento-line serif" style="font-size:0.9rem;">Lo natural siempre es mejor.</p>
+        </div>
+      </a>
+
+      <!-- Periodoncia — medium -->
+      <a href="#" class="bento-card tone-primary reveal-scale delay-1" style="grid-area:peri;">
+        <div class="bento-card-img">
+          <img src="assets/img/periodoncia-clinica-dental-olmos-399x399.jpg" alt="Periodoncia" loading="lazy" />
+          <div class="bento-card-img-overlay"></div>
+        </div>
+        <div class="bento-top">
+          <span class="micro" style="opacity:0.7;">/ periodoncia</span>
+          <span class="arrow-pill">&#8599;</span>
+        </div>
+        <div class="bento-bottom">
+          <h3 class="serif" style="font-size:clamp(1.3rem,1.6vw,1.7rem);">Periodoncia</h3>
+          <p class="bento-line serif">Encias sanas, dientes para toda la vida.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     CASES
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="cases" id="casos">
+  <div class="container">
+    <div class="cases-header">
+      <div class="reveal">
+        <span class="eyebrow" style="color:var(--primary-light);">(06) &mdash; Casos clinicos reales</span>
+        <h2 class="serif" style="margin-top:24px;">
+          Resultados que <em>se ven</em>. Y que se mantienen.
+        </h2>
+      </div>
+      <p class="reveal delay-1">
+        Cada caso lo trata uno de la familia Olmos, de principio a fin. Todos los pacientes mostrados han dado su consentimiento.
+      </p>
+    </div>
+
+    <div class="cases-grid">
+      <article class="case-card reveal">
+        <div class="case-meta">
+          <span class="micro case-tag">&#9679; Caso 01</span>
+          <span class="micro">Ortodoncia</span>
+        </div>
+        <div class="ba-slider">
+          <img src="assets/img/Casos clinicos.jpg" alt="Caso ortodoncia antes y despues" draggable="false" />
+          <div class="ba-bar" style="left:50%;">
+            <div class="ba-handle">&#8646;</div>
+          </div>
+          <span class="ba-label ba-label-l">ANTES</span>
+          <span class="ba-label ba-label-r">DESPUES</span>
+        </div>
+        <div class="case-info">
+          <h3 class="serif">Apiamiento severo &middot; 18 meses</h3>
+          <p>Caso de apiamiento dental tratado con ortodoncia. Resultado natural sin extracciones.</p>
+        </div>
+      </article>
+
+      <article class="case-card reveal delay-1">
+        <div class="case-meta">
+          <span class="micro case-tag">&#9679; Caso 02</span>
+          <span class="micro">Protesis &middot; Rehabilitacion</span>
+        </div>
+        <div class="ba-slider">
+          <img src="assets/img/Casos clinicos copia.jpg" alt="Caso protesis antes y despues" draggable="false" />
+          <div class="ba-bar" style="left:50%;">
+            <div class="ba-handle">&#8646;</div>
+          </div>
+          <span class="ba-label ba-label-l">ANTES</span>
+          <span class="ba-label ba-label-r">DESPUES</span>
+        </div>
+        <div class="case-info">
+          <h3 class="serif">Rehabilitacion completa &middot; 4 meses</h3>
+          <p>Recuperacion de funcion y estetica tras perdida multiple. Sonrisa devuelta.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="cases-footer">
+      <span style="font-size:var(--text-base);">Mas de 200 casos resueltos publicados con autorizacion.</span>
+      <a href="#casos" class="btn btn-outline" style="padding:12px 22px;font-size:13px;">Ver galeria completa &#8594;</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     BRAND MOMENT
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section style="padding:clamp(60px,10vw,140px) 0;overflow:hidden;">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(40px,6vw,80px);align-items:center;" class="brand-grid">
+      <div class="reveal-left">
+        <div style="aspect-ratio:1/1;overflow:hidden;border-radius:var(--radius-xl);box-shadow:0 30px 80px rgba(10,37,64,0.1);">
+          <img src="assets/img/image3.jpg" alt="Hacemos posible lo imposible" style="width:100%;height:100%;object-fit:cover;" />
+        </div>
+      </div>
+      <div class="reveal-right">
+        <span class="eyebrow">(07) &mdash; Cuento corto</span>
+        <h2 class="serif" style="font-size:clamp(2.2rem,4.5vw,5rem);line-height:0.98;font-weight:300;letter-spacing:-0.035em;margin-top:24px;">
+          Hacemos posible <span style="font-style:italic;">lo imposible.</span>
+        </h2>
+        <p style="margin-top:28px;font-size:var(--text-lg);line-height:1.6;color:var(--ink-soft);max-width:460;">
+          Hay casos que llegan despues de pasar por tres clinicas. Apinamientos &laquo;sin solucion&raquo;. Mordidas &laquo;que no se tocan&raquo;. Sonrisas que el paciente ha dado por perdidas.
+        </p>
+        <p style="margin-top:16px;font-size:var(--text-lg);line-height:1.6;color:var(--ink-soft);max-width:460;">
+          Aqui los miramos otra vez. Y muchas veces, la respuesta es: <em>si, se puede</em>.
+        </p>
+        <div style="margin-top:32px;display:flex;gap:16px;flex-wrap:wrap;align-items:center;">
+          <a href="#casos" class="ulink">Ver casos complejos &#8594;</a>
+          <span class="micro">Desde 1965 &middot; 4 odontologos</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    @media (max-width:900px) { .brand-grid { grid-template-columns: 1fr !important; } }
+  </style>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     TEAM
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="team" id="equipo">
+  <div class="container">
+    <!-- Feature -->
+    <div class="team-feature">
+      <div class="reveal">
+        <span class="eyebrow">(08) &mdash; Equipo</span>
+        <h2 class="serif" style="margin-top:24px;">
+          La <em>familia</em> que firma cada tratamiento.
+        </h2>
+        <p>Cuatro odontologos, dos generaciones, un unico criterio: hacer lo que hariamos por nuestra propia familia.</p>
+
+        <div class="team-mini-stats">
+          <div class="mini-stat glass">
+            <div class="mini-stat-n serif">1965</div>
+            <div class="mini-stat-sub">Fundacion</div>
+          </div>
+          <div class="mini-stat glass">
+            <div class="mini-stat-n serif">60+</div>
+            <div class="mini-stat-sub">Anos</div>
+          </div>
+          <div class="mini-stat glass">
+            <div class="mini-stat-n serif">4</div>
+            <div class="mini-stat-sub">Doctores</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="team-feature-img reveal-right delay-1">
+        <img src="assets/img/Image1.jpg" alt="Dr. Jose y Dr. Ignacio Olmos" />
+        <div class="team-feature-tag">
+          <span class="micro" style="opacity:0.7;">Generacion II</span>
+          <div class="serif" style="font-size:20px;font-weight:300;font-style:italic;margin-top:6px;line-height:1.1;">
+            Dr. Jose &amp; Dr. Ignacio
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Grid -->
+    <div class="team-grid">
+      <article class="team-card reveal">
+        <div class="team-portrait">
+          <div class="team-portrait-bg" style="background:linear-gradient(160deg,var(--primary),var(--navy));">
+            <div class="team-initials serif">VO</div>
+          </div>
+        </div>
+        <h3 class="serif">Dr. Vicente Olmos Izquierdo</h3>
+        <div class="team-role">Fundador &middot; Ortodoncia</div>
+        <p class="team-bio">Medico Estomatologo. Doctor en Medicina y Cirugia. Especialista Universitario en Ortodoncia. Jefe del Servicio de Ortodoncia del Hospital San Juan de Dios (1968&ndash;1974). Miembro fundador de la European Society of Lingual Orthodontics.</p>
+      </article>
+
+      <article class="team-card reveal delay-1">
+        <div class="team-portrait">
+          <div class="team-portrait-bg" style="background:linear-gradient(160deg,var(--gold),#8C7340);">
+            <div class="team-initials serif">JO</div>
+          </div>
+        </div>
+        <h3 class="serif">Dr. Jose Olmos Balaguer</h3>
+        <div class="team-role">Ortodoncia</div>
+        <p class="team-bio">Licenciado en Odontologia (2005). Dedicacion exclusiva a ortodoncia. Miembro Activo de la Sociedad Espanola de Ortodoncia. Co-director del Curso de Formacion Posgraduado Tecnica de Arco de Canto, Version Olmos.</p>
+      </article>
+
+      <article class="team-card reveal delay-2">
+        <div class="team-portrait">
+          <div class="team-portrait-bg" style="background:linear-gradient(160deg,var(--primary),var(--navy));">
+            <div class="team-initials serif">VO</div>
+          </div>
+        </div>
+        <h3 class="serif">Dr. Vicente Olmos Balaguer</h3>
+        <div class="team-role">Ortodoncia</div>
+        <p class="team-bio">Doctor en Odontologia cum laude por la Universidad de Valencia (2002). Posgraduado en Ortodoncia por la Universidad Moderna de Lisboa y en Ortodoncia Lingual por la Universidad Rene Descartes Paris V.</p>
+      </article>
+
+      <article class="team-card reveal delay-3">
+        <div class="team-portrait">
+          <div class="team-portrait-bg" style="background:linear-gradient(160deg,var(--gold),#8C7340);">
+            <div class="team-initials serif">IO</div>
+          </div>
+        </div>
+        <h3 class="serif">Dr. Ignacio Olmos Balaguer</h3>
+        <div class="team-role">Cirugia e Implantologia</div>
+        <p class="team-bio">Certificado en Cirugia e Implantologia Bucal por la Universidad de Valencia (2011). Formacion avanzada en implantologia (Dr. Lahera, 2013) y regeneracion osea (Dr. Murillo, 2019). Profesor de practicas universitarias.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     TESTIMONIALS
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="testimonials">
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:24px;">
+      <div class="reveal">
+        <span class="eyebrow">(09) &mdash; Lo que dicen nuestros pacientes</span>
+        <h2 class="serif" style="font-size:var(--text-3xl);line-height:1.02;font-weight:300;letter-spacing:-0.03em;margin-top:24px;max-width:600;">
+          Confianza que <em>se hereda</em>.
+        </h2>
+      </div>
+      <span class="micro reveal delay-1">Google Reviews &middot; 4,9 &#9733;</span>
+    </div>
+
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote class="testimonial-quote">
+          &laquo;Tres generaciones de mi familia llevamos anos en Olmos. La diferencia con cualquier otra clinica se nota desde que cruzas la puerta.&raquo;
+        </blockquote>
+        <div class="testimonial-author">
+          <div class="testimonial-name">Marta R.</div>
+          <div class="testimonial-detail">Paciente desde 2008 &middot; Valencia</div>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal delay-1">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote class="testimonial-quote">
+          &laquo;Me trataron un caso de ortodoncia que en otras dos clinicas habian descartado. Aqui lo resolvieron sin dramas y sin sorpresas en el presupuesto.&raquo;
+        </blockquote>
+        <div class="testimonial-author">
+          <div class="testimonial-name">Carlos B.</div>
+          <div class="testimonial-detail">Ortodoncia adultos &middot; Mislata</div>
+        </div>
+      </div>
+
+      <div class="testimonial-card reveal delay-2">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <blockquote class="testimonial-quote">
+          &laquo;Mi hijo, que le tenia panico al dentista, ahora pide ir el solo. Tienen una mano especial con los ninos.&raquo;
+        </blockquote>
+        <div class="testimonial-author">
+          <div class="testimonial-name">Laura M.</div>
+          <div class="testimonial-detail">Odontopediatria &middot; Puzol</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     CLINICS / SEDES
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="clinics" id="sedes">
+  <div class="container">
+    <div class="clinics-header">
+      <div class="reveal">
+        <span class="eyebrow">(10) &mdash; Nuestras sedes</span>
+        <h2 class="serif" style="margin-top:24px;">
+          Tres clinicas, <em>un</em> equipo.
+        </h2>
+      </div>
+    </div>
+
+    <div class="clinics-grid">
+      <!-- Valencia -->
+      <div class="clinic-card reveal">
+        <h3 class="clinic-name serif">Valencia</h3>
+        <span class="clinic-label">Sede historica</span>
+        <div class="clinic-details">
+          <div class="clinic-row">
+            <svg class="clinic-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            <div>
+              <div>Gran Via Germanias 15, Bajo</div>
+              <div style="opacity:0.6;">46006 Valencia</div>
+            </div>
+          </div>
+          <div class="clinic-row">
+            <svg class="clinic-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92V20a2 2 0 01-2.18 2A19.72 19.72 0 013 4.18 2 2 0 015 2h3.09a1 1 0 011 .75l.72 3.59a1 1 0 01-.26.9l-1.27 1.27a16 16 0 006.29 6.29l1.27-1.27a1 1 0 01.9-.26l3.59.72a1 1 0 01.75 1z"/></svg>
+            <div>96 341 06 44</div>
+          </div>
+          <div class="clinic-row">
+            <svg class="clinic-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <div>L&ndash;V &middot; 10:00&ndash;14:00 / 17:00&ndash;20:00</div>
+          </div>
+        </div>
+        <div class="clinic-actions">
+          <a href="tel:+34963410644" class="clinic-btn clinic-btn-phone">Llamar</a>
+          <a href="https://wa.me/34672669759" target="_blank" rel="noopener" class="clinic-btn clinic-btn-wa">WhatsApp</a>
+        </div>
+      </div>
+
+      <!-- Mislata -->
+      <div class="clinic-card reveal delay-1">
+        <h3 class="clinic-name serif">Mislata</h3>
+        <span class="clinic-label">Cl. de barrio</span>
+        <div class="clinic-details">
+          <div class="clinic-row">
+            <svg class="clinic-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            <div>
+              <div>Calle Tomas Sanz 18, Bajo</div>
+              <div style="opacity:0.6;">46920 Mislata</div>
+            </div>
+          </div>
+          <div class="clinic-row">
+            <svg class="clinic-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92V20a2 2 0 01-2.18 2A19.72 19.72 0 013 4.18 2 2 0 015 2h3.09a1 1 0 011 .75l.72 3.59a1 1 0 01-.26.9l-1.27 1.27a16 16 0 006.29 6.29l1.27-1.27a1 1 0 01.9-.26l3.59.72a1 1 0 01.75 1z"/></svg>
+            <div>96 383 67 84</div>
+          </div>
+          <div class="clinic-row">
+            <svg class="clinic-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <div>L&ndash;V &middot; 10:00&ndash;14:00 / 17:00&ndash;20:00</div>
+          </div>
+        </div>
+        <div class="clinic-actions">
+          <a href="tel:+34963836784" class="clinic-btn clinic-btn-phone">Llamar</a>
+          <a href="https://wa.me/34687888507" target="_blank" rel="noopener" class="clinic-btn clinic-btn-wa">WhatsApp</a>
+        </div>
+      </div>
+
+      <!-- Puzol -->
+      <div class="clinic-card reveal delay-2">
+        <h3 class="clinic-name serif">Puzol</h3>
+        <span class="clinic-label">Horta Nord</span>
+        <div class="clinic-details">
+          <div class="clinic-row">
+            <svg class="clinic-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+            <div>
+              <div>Av. Mancomunidad La Horta Nord 10</div>
+              <div style="opacity:0.6;">46530 Puzol</div>
+            </div>
+          </div>
+          <div class="clinic-row">
+            <svg class="clinic-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92V20a2 2 0 01-2.18 2A19.72 19.72 0 013 4.18 2 2 0 015 2h3.09a1 1 0 011 .75l.72 3.59a1 1 0 01-.26.9l-1.27 1.27a16 16 0 006.29 6.29l1.27-1.27a1 1 0 01.9-.26l3.59.72a1 1 0 01.75 1z"/></svg>
+            <div>96 146 58 93</div>
+          </div>
+          <div class="clinic-row">
+            <svg class="clinic-row-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+            <div>L&ndash;V &middot; 10:00&ndash;14:00 / 17:00&ndash;20:00</div>
+          </div>
+        </div>
+        <div class="clinic-actions">
+          <a href="tel:+34961465893" class="clinic-btn clinic-btn-phone">Llamar</a>
+          <a href="https://wa.me/34673010110" target="_blank" rel="noopener" class="clinic-btn clinic-btn-wa">WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     CTA + CONTACT FORM
+     ═══════════════════════════════════════════════════════════════════════ -->
+<section class="cta-final" id="cita">
+  <div class="container">
+    <span class="eyebrow reveal" style="color:var(--primary-light);">(11) &mdash; Pide tu cita</span>
+
+    <h2 class="serif reveal delay-1" style="margin-top:28px;">
+      Tu sonrisa empieza <span style="font-style:italic;">hoy.</span>
+    </h2>
+
+    <p class="reveal delay-2">
+      Nuestros profesionales te ayudaran a mejorar tu salud bucodental y recuperar tu sonrisa.<br>
+      <strong>1a visita gratuita. Diagnostico sin compromiso.</strong>
+    </p>
+
+    <div class="cta-badges reveal delay-3">
+      <span class="cta-badge">&#9733; 4,9 en Google</span>
+      <span class="cta-badge">&#128137; 60+ anos de experiencia</span>
+      <span class="cta-badge">&#128179; Financiacion 0%</span>
+    </div>
+
+    <!-- Form -->
+    <form class="contact-form reveal delay-3" onsubmit="event.preventDefault(); alert('Gracias. Nos pondremos en contacto contigo pronto.');">
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="name">Nombre</label>
+          <input class="form-input" type="text" id="name" name="name" placeholder="Tu nombre" required />
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="phone">Telefono</label>
+          <input class="form-input" type="tel" id="phone" name="phone" placeholder="+34 600 000 000" required />
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="clinic">Clinica</label>
+          <select class="form-select" id="clinic" name="clinic">
+            <option value="valencia">Valencia</option>
+            <option value="mislata">Mislata</option>
+            <option value="puzol">Puzol</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="treatment">Tratamiento</label>
+          <select class="form-select" id="treatment" name="treatment">
+            <option value="">Selecciona...</option>
+            <option value="ortodoncia">Ortodoncia</option>
+            <option value="invisalign">Invisalign</option>
+            <option value="implantologia">Implantologia</option>
+            <option value="cirugia">Cirugia oral</option>
+            <option value="pediatria">Odontopediatria</option>
+            <option value="endodoncia">Endodoncia</option>
+            <option value="estetica">Estetica dental</option>
+            <option value="blanqueamiento">Blanqueamiento</option>
+            <option value="periodoncia">Periodoncia</option>
+            <option value="protesis">Protesis dental</option>
+            <option value="otro">Otro / No lo se</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group full">
+          <label class="form-label" for="message">Mensaje (opcional)</label>
+          <input class="form-input" type="text" id="message" name="message" placeholder="Cuentanos brevemente..." />
+        </div>
+      </div>
+      <button type="submit" class="form-submit">
+        Pedir cita gratuita &#8594;
+      </button>
+      <p style="text-align:center;font-size:11px;opacity:0.5;margin-top:14px;">
+        Al enviar aceptas nuestra politica de privacidad. Te llamamos en menos de 24h.
+      </p>
+    </form>
+  </div>
+</section>
+
+<!-- ═══════════════════════════════════════════════════════════════════════════
+     FOOTER
+     ═══════════════════════════════════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="assets/logo/logo-olmos.png" alt="Clinica Dental Olmos" />
+        <p>Dos generaciones de odontologos cuidando de Valencia desde 1965.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Clinica</h4>
+        <a href="#clinica">Sobre nosotros</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#casos">Casos clinicos</a>
+        <a href="#sedes">Sedes</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Tratamientos</h4>
+        <a href="#tratamientos">Ortodoncia</a>
+        <a href="#tratamientos">Invisalign</a>
+        <a href="#tratamientos">Implantologia</a>
+        <a href="#tratamientos">Estetica dental</a>
+        <a href="#tratamientos">Ver todos</a>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <a href="tel:+34963410644">96 341 06 44</a>
+        <a href="https://wa.me/34672669759" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="#cita">Pedir cita</a>
+        <a href="#">Aviso legal</a>
+        <a href="#">Politica de privacidad</a>
+        <a href="#">Politica de cookies</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2026 Clinica Dental Drs. Olmos. Todos los derechos reservados.</p>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/ClinicaDentalDrsOlmos" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073C24 5.404 18.627 0 12 0S0 5.404 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.024 1.792-4.695 4.533-4.695 1.312 0 2.686.236 2.686.236v2.971H15.83c-1.491 0-1.956.93-1.956 1.886v2.264h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/clinicadentalolmos/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
