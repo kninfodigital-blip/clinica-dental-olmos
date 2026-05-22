@@ -291,7 +291,7 @@ ul, ol { list-style: none; }
   border-left: 1px solid rgba(10,37,64,0.2); padding-left: 12px;
 }
 
-.nav-links { display: flex; gap: 36; align-items: center; }
+.nav-links { display: flex; gap: 36px; align-items: center; }
 .nav-link {
   font-size: 13px; font-weight: 500; position: relative;
   padding: 4px 0; transition: color 0.3s var(--ease);
